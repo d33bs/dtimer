@@ -1,0 +1,102 @@
+@import url(lib/reset.css);
+@import url(lib/font-awesome.min.css);
+
+body{
+background:#fafaf0;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+.middle{
+margin:20px auto;
+width:100%;
+}
+
+#timerview{
+float:left;
+width:100%;
+padding:10px;
+box-sizing:border-box;
+background:#fff;
+}
+
+header{
+width:100%;
+float;left;
+margin-bottom:30px;
+text-align:center;
+}
+
+header h1{
+margin-bottom:20px;
+font-family:Georgia,serif;
+font-weight:bold;
+font-style:italic;
+}
+
+header p{
+float:left;
+width:100%;
+height:20px;
+text-align:center;
+font-size:.7em;
+color:#aac;
+}
+
+section{
+float:left;
+width:100%;
+text-align:center;
+}
+
+section#display{
+margin-bottom:30px;
+}
+
+section#display #numbers{
+font-size:1.7em;
+margin-top:20px;
+margin-bottom:30px;
+}
+
+section#display #line{
+width:100%;
+height:20px;
+background:#E1E1E8;
+}
+
+section#display #line #line_deplete{
+width:0%;
+height:20px;
+float:left;
+background:#6FC498;
+}
+
+section .input_row{
+display:block;
+margin-bottom:10px;
+}
+
+section#input input{
+padding:5px;
+font-size:1.05em;
+width:40px;
+}
+
+section#input button{
+font-size:.9em;
+padding:10px 12px;
+}
+
+section#input button em{
+text-decoration:underline;
+}
+
+footer{
+float:left;
+width:100%;
+margin-top:20px;
+font-size:.7em;
+color:#ddd;
+text-align:center;
+}
+

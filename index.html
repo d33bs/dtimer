@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+
+<title></title>
+
+<link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+<script src="assets/js/lib/head.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</head>
+<body>
+
+<div class="middle">
+<div id="timerview">
+
+<header>
+<h1><i class="icon-time"></i> Timer</h1>
+<p id="msg"><i class="icon-arrow-up"></i> and <i class="icon-arrow-down"></i> toggle minutes &nbsp;&bull;&nbsp; Enter or Ctl+S starts timer &nbsp;&bull;&nbsp; Ctl+P pauses timer &nbsp;&bull;&nbsp; Ctl+T stops timer</p>
+</header>
+
+<section id="display">
+<div id="numbers">
+<span id="min">0</span>:<span id="sec">00</span>
+</div>
+<div id="line"><span id="line_deplete"><span></div>
+</section>
+
+<section id="input">
+<span class="input_row">
+<input type="number" min="0" max="9999" class="amount">
+<label>Minutes</label>
+</span>
+
+<span class="input_row">
+<button id="start"><i class="icon-play"></i> <em>S</em>tart</button>
+<button id="pause"><i class="icon-pause"></i> <em>P</em>ause</button>
+<button id="stop"><i class="icon-stop"></i> S<em>t</em>op</button>
+</span>
+</section>
+
+</div>
+
+<footer>
+&copy; Dave Bunten 2013
+</footer>
+
+</div>
+
+</body>
+</html>
